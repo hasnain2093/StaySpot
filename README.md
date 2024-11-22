@@ -130,7 +130,10 @@ Ongoing monitoring, bug fixes, and feature updates based on user feedback to imp
 ## System Design Overview  
 The app architecture includes:  
 - **Core Entities**: Users, Messes, Rooms, Bookings.  
-- **Database Structure**:  
+- **Database Structure**:
+- <p align="center">
+  <img src="diagram of stayspot.jpg" alt="diagram of system" width="250" height="300">
+</p>
 
 | **Entity**      | **Attributes**                           | **Description**                        |  
 |------------------|------------------------------------------|----------------------------------------|  
