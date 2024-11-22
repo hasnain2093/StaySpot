@@ -6,7 +6,8 @@
   Hajee Mohammad Danesh Science and Technology University,Dinajpur-5200.
 </h3>
 <h3 align="center">
-Project Name: StaySpot (Focuses on finding the ideal spot to stay)
+  <b>Project Name: StaySpot</b>  
+  <i>(A platform for finding the ideal spot to stay)</i>
 </h3>
 
 <h3 align="center">
