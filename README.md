@@ -47,7 +47,7 @@
    - [Maintenance](#maintenance)  
 5. [System Design Overview](#system-design-overview)  
 6. [Testing Strategy](#testing-strategy)  
-7. [Hurdles Faced and How We Overcame Them](#hurdles-faced-and-how-we-overcame-them)  
+7. [Hurdles Faced and How I Overcame Them](#hurdles-faced-and-how-I-overcame-them)  
 8. [Final Thoughts](#final-thoughts)  
 
 ---
@@ -171,7 +171,7 @@ Testing was conducted at multiple levels, including unit, integration, and syste
 
 ---
 
-## Hurdles Faced and How We Overcame Them  
+## Hurdles Faced and How I Overcame Them  
 
 | **Challenge**                       | **Solution**                                                  |  
 |-------------------------------------|--------------------------------------------------------------|  
