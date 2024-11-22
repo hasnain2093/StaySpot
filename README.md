@@ -36,14 +36,14 @@ Project Name: StaySpot (Focuses on finding the ideal spot to stay)
 1. [About project](#about-project)  
 2. [Features of StaySpot](#features-of-stayspot)
 3. [Technologies Used](#technologies-used)  
-4. [Software Development Life Cycle Phases](#software-development-life-cycle-phases)
-   - [Idea and Planning](#idea-and-planning)  
-   - [Requirement Analysis](#requirement-analysis)  
-   - [Architectural Design](#architectural-design)  
-   - [Development](#development)  
-   - [Quality Assurance](#quality-assurance)  
-   - [Launch and Rollout](#launch-and-rollout)  
-   - [Post-Launch Support](#post-launch-support)  
+4. [Software Development Life Cycle Phases](#software-development-life-cycle-phases)  
+   - [Planning](#planning)  
+   - [Requirements Gathering & Analysis](#requirements-gathering--analysis)  
+   - [Design](#design)  
+   - [Implementation](#implementation)  
+   - [Testing](#testing)  
+   - [Deployment](#deployment)  
+   - [Maintenance](#maintenance)  
 5. [System Design Overview](#system-design-overview)  
 6. [Testing Strategy](#testing-strategy)  
 7. [Hurdles Faced and How We Overcame Them](#hurdles-faced-and-how-we-overcame-them)  
@@ -89,41 +89,54 @@ StaySpot is built with modern technologies for a seamless experience:
 
 ---
 
-##  Software Development Life Cycle Phases
+## Software Development Life Cycle Phases  
 
-### Idea and Planning  
-The concept originated from the challenges faced by students searching for suitable accommodations. This phase involved brainstorming ideas, identifying user pain points, and defining project goals.  
+### Planning  
+The first step involved identifying the problem faced by students and travelers in finding temporary accommodations. A clear roadmap was created, outlining the project's goals, milestones, and deliverables.  
 
-### Requirement Analysis  
-Key requirements were identified and documented, such as:  
-- Real-time room availability.  
-- Detailed mess profiles and facilities.  
-- Integrated booking functionality.  
-- Mapping nearby shops and services.  
+---
 
-### Architectural Design  
-#### **System Overview**  
-- **Frontend**: Interactive interfaces for search, booking, and details.  
-- **Backend**: APIs to manage bookings, mess details, and user authentication.  
-- **Database**: Efficient data organization to handle rooms, bookings, and mess facilities.  
+### Requirements Gathering & Analysis  
+This phase focused on understanding user needs. Key requirements included:  
+- Real-time availability of mess seats.  
+- Comprehensive details about mess facilities.  
+- Integration of booking features.  
+- Display of nearby services.  
+The requirements were then analyzed for feasibility, and priorities were set.  
 
-### Development  
-The development phase was broken into modules:  
-- **UI Development**: Built using React Native or JavaFX for a smooth user experience.  
-- **API Development**: Backend services handled search, bookings, and mess management.  
-- **Database Integration**: MySQL or Firebase used for secure data storage.  
+---
 
-### Quality Assurance  
-Rigorous testing was conducted to ensure reliability:  
-- Unit Testing: Focused on individual components.  
-- Integration Testing: Ensured modules worked together seamlessly.  
-- User Acceptance Testing (UAT): Real users tested the app, and feedback was incorporated.  
+### Design  
+The design phase involved creating both high-level and low-level system designs.  
+- **High-Level Design**: Defined the system architecture, including the interaction between the frontend, backend, and database.  
+- **Low-Level Design**: Created detailed UI wireframes and database schemas.  
 
-### Launch and Rollout  
-The app was deployed on cloud services such as AWS or Firebase, ensuring reliability, scalability, and availability for users.  
+---
 
-### Post-Launch Support  
-Ongoing monitoring, bug fixes, and feature updates based on user feedback to improve performance and user satisfaction.  
+### Implementation  
+The app was developed using modern frameworks:  
+- **Frontend**: Interactive UI built with JavaFX or React Native.  
+- **Backend**: API services implemented with Java Spring Boot.  
+- **Database**: MySQL or Firebase used for storing and retrieving data.  
+
+---
+
+### Testing  
+Multiple testing phases were conducted to ensure quality:  
+- **Unit Testing**: Verified each module, such as user authentication and search.  
+- **Integration Testing**: Ensured smooth communication between modules (e.g., backend and database).  
+- **System Testing**: Tested the entire workflow for issues or inefficiencies.  
+- **User Acceptance Testing (UAT)**: Feedback from real users was incorporated to refine features.  
+
+---
+
+### Deployment  
+The app was deployed on cloud platforms such as AWS or Firebase, ensuring scalability and reliability. It was then made available for users through the Play Store and App Store.  
+
+---
+
+### Maintenance  
+Post-deployment, the system is monitored for performance, and updates are rolled out to fix bugs, add new features, and improve the user experience.  
 
 ---
 
